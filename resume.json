@@ -7,7 +7,7 @@
     "email": "gsenden@outlook.com",
     "phone": "+31 6 19289253",
 
-    "summary": "Teamleider van vier scrum ontwikkelteams  die  verantwoordelijk is voor de bezetting, klantcontact en de acquisitie van nieuwe projecten.  Jarenlange ervaring als analist / product owner met een senior ontwikkelaar achtergrond.",
+    "summary": "Als principal bij Netcompany ben ik eindverantwoordelijk voor Agile maatwerk projecten in de zorg- en onderwijssector en ben ik nauw betrokken bij het winnen van aanbestedingen van de Nederlandse overheid. Ik heb in mijn loopbaan een rol gehad in alle facetten van software ontwikkeling, aansturing en aquisitie. Deze kennis en ervaring helpt mij om de kansen en problemen van deze sector, en de mensen die daarin werkzaam zijn, goed te begrijpen en op hun waarde te kunnen inschatten. IT is altijd mijn hobby, werk en passie gebleven.",
     "location": {
       "address": "Drukkerijlaan 28",
       "postalCode": "2627 CM",
@@ -18,8 +18,7 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "ACoAAACTkdABSxQYmaAvd7OdJ75wE-xKidS9UcQ",
-        "url": "https://www.linkedin.com/in/ACoAAACTkdABSxQYmaAvd7OdJ75wE-xKidS9UcQ/"
+        "url": "https://www.linkedin.com/in/ger-senden/"
       },
     {
         "url": "https://github.com/gsenden",
@@ -30,18 +29,22 @@
   },
   "work": [
     {
-      "name": "Pied Piper",
-      "location": "Palo Alto, CA",
-      "description": "Awesome compression company",
-      "position": "CEO/President",
-      "url": "http://piedpiper.example.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "name": "Netcompany",
+      "location": "Delft",
+      "description": "Netcompany levert innovatieve en essentiële IT-oplossingen",
+      "position": "Principal",
+      "url": "http://netcompany.com",
+      "startDate": "2021-01-01",
+      "summary": "Netcompany is opgericht in 2000 en heeft zijn hoofdkantoor in de Deense hoofdstad Kopenhagen. Sindsdien zijn zij uitgegroeid tot een internationaal bedrijf met meer dan 3000 werknemers in zes landen. Netcompany is een gespecialiseerd bedrijf in IT-dienstverlening en levert bedrijfskritische IT-oplossingen die de digitale transformatie van klanten versnellen door middel van digitale platforms, kernsystemen en infrastructurele diensten.",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Aansturen van managers op de voortgang van het project.",
+        "Klantcontact onderhouden op directie niveau.",
+        "Beleid opstellen voor de aansturing van projecten",        
+        "Strategie bepalen bij aanbestedingen.",
+        "Kwaliteit geschreven offertes controleren.",
+        "Schrijven aanbestedingen.",
+        "Manager en consultant sollicitaties.",
+        "Technologiebeleid bepalen."
       ]
     },
     {
