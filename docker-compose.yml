@@ -1,0 +1,60 @@
+version: '3.1'
+
+services:
+  nl-rivm-count-per-municipality:
+    depends_on:
+      - mongodb
+    build:
+      context: ./nl/rivm-count-per-municipality/
+      args:
+        - USER=gsenden
+        - ACCESS_TOKEN=1c209ea716897ff12f13e10163e4435bd6479c27
+        - PROJECT=pandemic-insight
+    # ports:
+    #   - '3111:3111'
+    environment:
+      - PORT=3111
+      - CONNECTIONSTRING=mongodb://gsenden:IchkomoetKunder@192.168.1.90:20171
+      #- CONNECTIONSTRING=mongodb+srv://gsenden:IchkomoetKunder@gscluster.ajgx0.mongodb.net/pandemicinsight?retryWrites=true&w=majority
+    restart: always
+  nl-service:
+    depends_on:
+      - nl-rivm-count-per-municipality
+    build:
+      context: ./nl/service/
+      args:
+        - USER=gsenden
+        - ACCESS_TOKEN=1c209ea716897ff12f13e10163e4435bd6479c27
+        - PROJECT=pandemic-insight
+    # ports:
+    #   - '3112:3112'
+    environment:
+      - PORT=3112
+      - COUNT_PER_MUNICIPALITY_URL=http://nl-rivm-count-per-municipality:3111/
+    restart: always
+  nl-tasker:
+    depends_on:
+      - nl-service
+    build:
+      context: ./tasker
+      args:
+        - CRON_SCHEDULE=* * * * *
+        - URL=http://nl-service:3112/api/update
+    restart: always
+  web:
+    depends_on:
+      - nl-service
+    build:
+      context: ./web
+    restart: always
+  reverse_proxy:
+    depends_on:
+      - nl-service
+    container_name: reverse_proxy
+    hostname: pandemic_insight_reverse_proxy
+    image: nginx
+    ports:
+      - 3110:80
+    volumes:
+      - ./reverse_proxy/reverse_proxy.conf:/etc/nginx/conf.d/default.conf
+    restart: unless-stopped

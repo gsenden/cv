@@ -8,7 +8,18 @@
     "url": "https://github.com/gsenden/cv"
   },
   "license": "MIT",
+  "scripts": {
+    "build": "./build.sh",
+    "dev": "npx nodemon --exec ./build.sh"    
+  },
+  "nodemonConfig": {
+    "ext": "js css json hbs"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
   "dependencies": {
-    "handlebars": "^2.0.0-alpha.4"
+    "handlebars": "^2.0.0-alpha.4",
+    "resume-cli": "^3.0.0"
   }
 }
