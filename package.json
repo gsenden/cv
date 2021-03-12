@@ -1,25 +1,14 @@
 {
-  "name": "cv",
+  "name": "gsenden-jsonresume",
   "version": "0.1.0",
-  "description": "CV generation",
-  "main": "index.js",
-  "scripts": {
-    "html": "resume export resume.html"
-  },
+  "description": "Ger's JSON Resume",
+  "author": "gsenden",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gsenden/cv.git"
+    "url": "https://github.com/gsenden/cv"
   },
-  "author": "gsenden",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gsenden/cv/issues"
-  },
-  "homepage": "https://github.com/gsenden/cv#readme",
+  "license": "MIT",
   "dependencies": {
-    "jsonresume-theme-even": "^0.10.1",
-    "jsonresume-theme-kendall": "^0.2.0",
-    "jsonresume-theme-print-flexbox": "^1.0.0",
-    "puppeteer": "^8.0.0"
+    "handlebars": "^2.0.0-alpha.4"
   }
 }
