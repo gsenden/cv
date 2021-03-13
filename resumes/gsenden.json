@@ -1,0 +1,248 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Ger Senden",
+    "label": "Principal",
+    "image": "https://avatars.githubusercontent.com/u/6561177?s=460&u=15bbd159acf3673466794e18761821d704eb3b40&v=4",
+    "email": "gsenden@outlook.com",
+    "phone": "+31 6 19289253",
+
+    "summary": "Als principal bij Netcompany ben ik eindverantwoordelijk voor Agile maatwerk projecten in de zorg- en onderwijssector en ben ik nauw betrokken bij het winnen van aanbestedingen van de Nederlandse overheid. Ik heb in mijn loopbaan een rol gehad in alle facetten van software ontwikkeling, aansturing en aquisitie. Deze kennis en ervaring helpt mij om de kansen en problemen van deze sector, en de mensen die daarin werkzaam zijn, goed te begrijpen en op hun waarde te kunnen inschatten. IT is altijd mijn hobby, werk en passie gebleven.",
+    "location": {
+      "address": "Drukkerijlaan 28",
+      "postalCode": "2627 CM",
+      "city": "Delft",
+      "countryCode": "NL",
+      "region": "Zuid Holland"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ger-senden/"
+      },
+    {
+        "url": "https://github.com/gsenden",
+        "username": "gsenden",
+        "network": "github"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Netcompany",
+      "location": "Delft",
+      "description": "Netcompany levert innovatieve en essentiële IT-oplossingen",
+      "position": "Principal",
+      "url": "http://netcompany.com",
+      "startDate": "2021-01-01",
+      "summary": "Netcompany is opgericht in 2000 en heeft zijn hoofdkantoor in de Deense hoofdstad Kopenhagen. Sindsdien zijn zij uitgegroeid tot een internationaal bedrijf met meer dan 3000 werknemers in zes landen. Netcompany is een gespecialiseerd bedrijf in IT-dienstverlening en levert bedrijfskritische IT-oplossingen die de digitale transformatie van klanten versnellen door middel van digitale platforms, kernsystemen en infrastructurele diensten.",
+      "highlights": [
+        "Aansturen van managers op de voortgang van het project.",
+        "Klantcontact onderhouden op directie niveau.",
+        "Beleid opstellen voor de aansturing van projecten",        
+        "Strategie bepalen bij aanbestedingen.",
+        "Kwaliteit geschreven offertes controleren.",
+        "Schrijven aanbestedingen.",
+        "Manager en consultant sollicitaties.",
+        "Technologiebeleid bepalen."
+      ]
+    },
+    {
+      "company": "Netcompany",
+      "highlights": [],
+      "position": "Principal",
+      "startDate": "2021-01-01",
+      "website": "https://www.linkedin.com/company/netcompany-a-s/"
+    },
+    {
+      "company": "Netcompany",
+      "endDate": "2020-12-31",
+      "highlights": [],
+      "position": "Manager",
+      "startDate": "2019-06-30",
+      "website": "https://www.linkedin.com/company/netcompany-a-s/"
+    },
+    {
+      "company": "QDelft",
+      "endDate": "2019-06-30",
+      "highlights": [],
+      "position": "Teamleider",
+      "startDate": "2018-07-31",
+      "website": "https://www.linkedin.com/company/q-delft/"
+    },
+    {
+      "company": "Q Delft",
+      "endDate": "2018-07-31",
+      "highlights": [],
+      "position": "Information Analyst",
+      "startDate": "2012-06-30",
+      "website": "https://www.linkedin.com/company/q-delft/"
+    },
+    {
+      "company": "Q Delft",
+      "endDate": "2012-06-30",
+      "highlights": [],
+      "position": "Senior Software Engineer",
+      "startDate": "2010-10-31",
+      "website": "https://www.linkedin.com/company/q-delft/"
+    },
+    {
+      "company": "Trezorix",
+      "endDate": "2010-10-31",
+      "highlights": [],
+      "position": "Senior Software Engineer",
+      "startDate": "2008-09-30",
+      "summary": "Working on the semantic web.",
+      "website": ""
+    },
+    {
+      "company": "NetEconomy",
+      "endDate": "2008-08-31",
+      "highlights": [],
+      "position": "Software Enigneer",
+      "startDate": "2004-10-31",
+      "website": "https://www.linkedin.com/company/neteconomy/"
+    },
+    {
+      "company": "Fiserv",
+      "endDate": "2008-12-31",
+      "highlights": [],
+      "position": "Senior Software Engineer",
+      "startDate": "2007-12-31",
+      "website": ""
+    },
+    {
+      "company": "Atos Origin",
+      "endDate": "2004-10-31",
+      "highlights": [],
+      "position": "Software Engineer",
+      "startDate": "2002-08-31",
+      "website": "https://www.linkedin.com/company/atos/"
+    },
+    {
+      "company": "KPN Mobile",
+      "endDate": "2002-07-31",
+      "highlights": [],
+      "position": "Programmer",
+      "startDate": "1999-09-30",
+      "website": "https://www.linkedin.com/company/kpn/"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "CoderDojo",
+      "position": "Teacher",
+      "url": "http://coderdojo.example.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Global movement of free coding clubs for young people.",
+      "highlights": [
+        "Awarded 'Teacher of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Oklahoma",
+      "url": "https://www.ou.edu/",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2011-06-01",
+      "endDate": "2014-01-01",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Digital Compression Pioneer Award",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Video compression for 3d media",
+      "publisher": "Hooli",
+      "releaseDate": "2014-10-01",
+      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Compression",
+      "level": "Master",
+      "keywords": [
+        "Mpeg",
+        "MP4",
+        "GIF"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Miss Direction",
+      "description": "A mapping engine that misguides you",
+      "highlights": [
+        "Won award at AIHacks 2016",
+        "Built by all women team of newbie programmers",
+        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+      ],
+      "keywords": [
+        "GoogleMaps",
+        "Chrome Extension",
+        "Javascript"
+      ],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "url": "missdirection.example.com",
+      "roles": [
+        "Team lead",
+        "Designer"
+      ],
+      "entity": "Smoogle",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00",
+    "theme": "elegant"
+  }
+}
