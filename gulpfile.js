@@ -6,5 +6,6 @@ gulp.task('browser-sync', function () {
     server: {
       baseDir: './dist',
     },
+    notify: false
   });
 });

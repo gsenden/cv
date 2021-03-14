@@ -5,8 +5,10 @@ do
   resumeFile=$(basename "$resumePath")
   resume="${resumeFile%.*}"
   cp $resumePath resume.json
-  npx resume export ./dist/${resume}.pdf --theme . > /dev/null 2>&1
+  rm -r ./dist/assets
+  cp -r ./assets ./dist/
   npx resume export ./dist/${resume}.html --theme . > /dev/null 2>&1
+  node generate-pdf.js
   rm resume.json
   echo '==> Resume' $resume 'generated in ./dist'
 done

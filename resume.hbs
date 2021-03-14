@@ -8,22 +8,20 @@
 
 	<title>{{#resume.basics}}{{name}}{{/resume.basics}}</title>
 
-	<style>
-		{
-				{
-					{
-					css
-				}
-			}
-		}
-	</style>
+	<style>{{{css}}}</style>
 
 </head>
 
 <body>
-
 	<div id="resume">
-		{{> basics }}
+		<div id="firstPage">
+			
+			<div id="contentLeft" class="gridColumn blueBack">
+			</div>
+			<div id="contentRight" class="gridColumn"></div>
+		</div>
+		{{!-- {{> basics }}
+		
 		{{> work }}
 		{{> volunteer }}
 		{{> education }}
@@ -32,7 +30,7 @@
 		{{> skills }}
 		{{> languages }}
 		{{> interests }}
-		{{> references }}
+		{{> references }} --}}
 </body>
 
 </html>
