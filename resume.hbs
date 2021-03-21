@@ -13,13 +13,31 @@
 </head>
 
 <body>
-	<div id="resume">
+	<div id="resume" style="border: 1px solid red;">
 		<div id="firstPage">
 			
 			<div id="contentLeft" class="gridColumn blueBack">
+				
+				<div id="profileImageSquare" class="noOverflow">
+					<div id="profileImagePicture" style="background-image: url({{resume.basics.image}})"></div>
+				</div>
+
+				<div id="leftName" class="leftColumnItem noOverflow">
+					<div></div>
+					<div>
+						<div id="basics-name">{{resume.basics.name}}</div>
+						<div id="basics-label">{{resume.basics.label}}</div>
+					</div>
+					<div></div>
+				</div>
+				<div id="leftDescription" class="noOverflow">18</div>
+				<div id="leftExp" class="noOverflow">42</div>
+				<div id="leftContact" class="noOverflow">17</div>
+				
 			</div>
 			<div id="contentRight" class="gridColumn"></div>
 		</div>
+
 		{{!-- {{> basics }}
 		
 		{{> work }}
